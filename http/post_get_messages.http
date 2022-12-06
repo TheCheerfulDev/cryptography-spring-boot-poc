@@ -1,0 +1,16 @@
+GET http://localhost:8080/crypto/create/1234
+
+###
+
+DELETE http://localhost:8080/crypto/1234
+
+###
+
+POST localhost:8080/messages/1234
+Content-Type: text/plain
+
+Very Secret Message
+
+###
+
+GET localhost:8080/messages/1234
